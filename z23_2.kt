@@ -96,6 +96,9 @@ fun main(){
                     else -> println("г - не входит")
                 }
             }
+            else->{
+                println("неправильное значение")
+            }
         }
     }
     catch(e:Exception){
